@@ -1,0 +1,106 @@
+.bg-ghost{
+    background-color: #f9f9ff;
+}
+.bg-brick{
+    background-color: firebrick;
+}
+.bg-lbrick{
+    background-color:brown;
+}
+.text-gray{
+    color:gray;
+}
+.text-black{
+    color: black;
+}
+.text-brick{
+    color: firebrick;
+}
+.fa-1x {
+    font-size:.9em;
+}
+.no-box-shadow{
+    box-shadow: none;
+}
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+a{
+    transition: .3s fadein;
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}.hoverdH{
+    transition: all .5s ;
+ }
+.hoverdH:hover{
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+}
+.hoverdC{
+    transition: all .5s;
+}
+.hoverdC:hover{
+    background-color:green;
+    cursor: pointer;
+    color: white;
+}
+.display-5{
+    font-size:2.5rem;
+    font-weight:300;
+}
+textarea:focus{
+    outline:none;
+    color:white;
+}
+input[type=text]:focus{
+    outline:none;
+    color:white;
+}
+input[type=text]::placeholder{
+    color:white;
+}
+input[type=email]:focus{
+    outline:none;
+    color:white;
+    border: none;
+}
+input[type=email]::placeholder{
+    color:white;
+}
+input[type=submit]:focus{
+    outline:none;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    color:black;
+}
+::placeholder{
+    color:white;
+}
+.bordern{
+    border:2px solid firebrick;
+}
+.borderR{
+    border-right:1px solid firebrick;
+}
+.border-brick{
+    border: 1px solid firebrick;
+}
+.facebook{
+    transition: all .1s;
+}
+.bg-effect{
+    transition: all .1s;
+}
+.bg-effect:hover{
+    background-color:firebrick;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
